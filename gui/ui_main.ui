@@ -1,1 +1,21 @@
+# -*- coding: utf-8 -*-
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setWindowTitle("新澳门六合彩预测软件（中文版）")
+        MainWindow.resize(600, 600)
+
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+
+        self.btn_load = QtWidgets.QPushButton("📂 加载历史数据", self.centralwidget)
+        self.btn_load.setGeometry(30, 20, 200, 40)
+
+        self.btn_predict = QtWidgets.QPushButton("🔮 预测下一期", self.centralwidget)
+        self.btn_predict.setGeometry(250, 20, 200, 40)
+
+        self.txt_log = QtWidgets.QTextEdit(self.centralwidget)
+        self.txt_log.setGeometry(30, 80, 540, 480)
+
+        MainWindow.setCentralWidget(self.centralwidget)
 
