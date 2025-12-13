@@ -19,4 +19,3 @@ pip install -r requirements.txt
 python main_window.py
 4. 生成 EXE：
 pyinstaller -F -w main_window.py 
- 
