@@ -12,4 +12,4 @@
 ## 使用方法
 
 1. 将历史数据放在：  
-/data/history.csv
+data/新澳门marksix_2020_2025.csv
