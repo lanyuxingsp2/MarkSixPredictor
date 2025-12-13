@@ -13,7 +13,7 @@
 
 1. 将历史数据放在：  
 data/新澳门marksix_2020_2025.csv
-2.安装依赖：  
+2. 安装依赖：  
 pip install -r requirements.txt
 3. 运行：
 python main_window.py
